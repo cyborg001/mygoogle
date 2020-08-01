@@ -6,3 +6,4 @@ para imagenes:
 tbm=isch
 para search:
 q=<nombre>
+as_q=todas+las+palabras
