@@ -1,22 +1,50 @@
-#formulario{
+#formulario, #formulario1{
   padding-top:20%;
 }
-#principal{
+#principal, #principal1, #principal2{
   padding:20px;
 }
 p{
   text-align:right;
 }
-input{
+input, label{
   margin:10px;
-
   height:40px;
 }
-input[type='text']{
-  height: 50px;
-  border-radius: 50px;
+#sumitadvance{
+  background-color: #138AC6;
+  color: white;
+  left: 22em;
+  position: relative;
+  height: 30px;
+}
+
+.centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label{
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 12px;
+}
+form{
+  margin-top:20px;
+}
+h4{
+  color:red;
 }
 a{
-  /* float:right; */
   margin:5px;
+}
+.bordertext{
+  height: 50px;
+  border-radius: 50px;
+  border-width: 1px;
+}
+.houver:hover{
+  -webkit-box-shadow: 2px 0px 6px 1px rgba(0,0,200,0.84);
+  -moz-box-shadow: 2px 0px 6px 1px rgba(0,0,200,0.84);
+  box-shadow: 2px 0px 6px 1px rgba(0,0,200,0.84);
 }

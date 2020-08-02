@@ -7,3 +7,6 @@ tbm=isch
 para search:
 q=<nombre>
 as_q=todas+las+palabras
+as_epq="todas+las+palabras"
+as_oq=todas+las+palabras(cualquiera de estas palabras)
+as_eq=todas+las+palabras(ninguna de estas palabras)

@@ -1,25 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Search</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/estilo.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <div id="principal2" >
+          <p >
+            <a  href="index.html">Google</a>
+          </p>
+          <div class="">
+            <h4>Advance Search</h4>
+          </div>
+          <hr><br><br>
+          <p></p>
+          <div>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="text-left" class="col-2">
 
-    </head>
-    <body>
-      <div id="principal" >
-            <p >
-              <a  href="index.html">Google</a>
-            </p>
-            <div id="formulario" class="text-center" >
-              <form  action="https://google.com/search">
-                <input maxlength="30" size="60" type="text" name="q"><br />
-                <input type="submit" value="Search">
-                <input maxlength="30" size="60" type="hidden" name="tbm" value='isch'><br />
-              </form>
+                  <label  for="hidden"><h5>Show page with</h5></label><br>
+                  <label  for="as_q">All these words:</label><br>
+                  <label  for="as_epq">These word or these exact phrase:</label><br>
+                  <label  for="as_oq">Any of these words:</label><br>
+                  <label  for="as_ep">None of these words:</label><br>
+                </div>
+                <div class="col-4"id="formulario2"  >
+                  <form  id="form2" action="https://google.com/search">
+                    <!-- <br> -->
+                    <input id="hidden" type="hidden" name="" value=""><br>
+                    <input id="as_q" maxlength="30" size="50" type="text" name="as_q"><br />
+                    <input id="as_epq" maxlength="30" size="50" type="text" name="as_epq"><br />
+                    <input id="as_oq" maxlength="30" size="50" type="text" name="as_oq"><br />
+                    <input id="as_eq" maxlength="30" size="50" type="text" name="as_eq"><br />
+                    <input  id="sumitadvance" type="submit" value="Google Search">
+                  </form>
+                </div>
+                <div class="col-6">
+
+                </div>
             </div>
-        </div>
+
+            </div>
+
+          </div>
+
       </div>
-    </body>
+    </div>
+  </body>
 </html>
